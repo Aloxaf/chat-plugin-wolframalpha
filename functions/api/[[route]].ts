@@ -31,6 +31,6 @@ app.post('/llm-api', async (c) => {
   });
 
   return c.text(await response.text());
-})
+});
 
 export const onRequest = handle(app);

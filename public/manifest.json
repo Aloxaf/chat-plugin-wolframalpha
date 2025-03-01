@@ -2,9 +2,9 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "name": "wolframalpha",
+      "name": "askWolframAlpha",
       "url": "https://chat-plugin-wolframalpha.aloxaf.com/api/v1/llm-api",
-      "description": "Information from the WolframAlpha LLM API",
+      "description": "Ask WolframAlpha for full information about a query",
       "parameters": {
         "properties": {
           "input": {
